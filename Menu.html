@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+    <title>Travel Website - Menu</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiqUgmvZacKa0PTfelNSE0-El7U7X8psuv_A&s);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #FFD700; /* Gold color */
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #FFC107; /* Darker gold on hover */
+}
+
+.menu-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu-section 
+ h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.menu-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.menu-card h3 {
+    margin: 15px 0 10px;
+}
+
+.menu-card p {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: #fff;
+}
+        </style>
+</head>
+<body>
+    <header>
+        <div class="logo">TravelExplorer</div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Explore the World with Us</h1>
+            <p>Your adventure starts here. Discover amazing places and experiences!</p>
+            <a href="destinations.html" class="cta-button">View Destinations</a>
+        </section>
+        <section class="menu-section">
+            <h2>Our Services</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdAQf3DSHUz7HqtER7dPoNr-YftQmi25EfOA&s" alt="Hotel Reservations">
+                    <h3>Hotel Reservations</h3>
+                    <p>Find and book hotels worldwide.</p>
+                </div>
+                <div class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKy3J4DLPdH-UYtkaorOY2sbT8Ptu2dUdB6Q&s" alt="Car Rentals">
+                    <h3>Car Rentals</h3>
+                    <p>Rent a car for your travels.</p>
+                </div>
+                <div class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUGX4pTV57E4SSr8igkSb73AUOwVMrtEmmtQ&s" alt="Travel Insurance">
+                    <h3>Travel Insurance</h3>
+                    <p>Protect your trip with insurance.</p>
+                </div>
+                <div class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK6nuh7Lj7BYJ6HO00Fo2e7mWEkvJ9gYBa-Q&s" alt="Trip Planner">
+                    <h3>Trip Planner</h3>
+                    <p>Save your time with trip planner.</p>
+                </div>
+                <div class="menu-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6gOMeiusXtIKkHFF8AejWDWHDJWGN5u7eg&s" alt="Food">
+                    <h3>Food</h3>
+                    <p>here is the paradise.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TravelExplorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
